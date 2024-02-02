@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE-233</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="form1">
+        <div class="form2">
+             <fieldset class="fieldset">
+                <legend>Information</legend>
+             <form>
+         <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" placeholder="EG-Atendido"><br><br>
+
+         <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="EG-Beshy"><br><br>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" placeholder="EG-IS"><br><br>
+
+                 <label for="section">Section:</label><br>
+                    <input type="text" id="section" name="section" placeholder="EG-S3"><br><br>
+  </form>
+         <button class="submit-btn">Sumbit</button>
+            <button class="click-btn" onclick="disp()">Click Here</button>
+         <div id="info" style="display: none;">
+            <h2>Student Info</h2>
+            <p id="lName"></p>
+            <p id="fName"></p>
+            <p id="crs"></p>
+            <p id="sc"></p>
+        </fieldset>      
+    </div>
+    </div>
+  </div>
+</body>
+</html>

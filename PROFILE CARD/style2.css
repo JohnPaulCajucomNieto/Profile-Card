@@ -1,0 +1,12 @@
+body{
+    
+}
+
+span{
+    color: black;
+}
+p{
+    text-align: justify;
+    text-indent: 5em;
+    column-rule: 3px solid black;
+}
